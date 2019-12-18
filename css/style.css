@@ -5,8 +5,8 @@
 
 img {
     display: block;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 400px;
     width: auto;
     height: auto;
     padding: 1em;
@@ -22,7 +22,6 @@ img {
 
 .img-panel {
     width: 100%;
-    height: 20%;
     display: flex;
     align-items: center;
 }
