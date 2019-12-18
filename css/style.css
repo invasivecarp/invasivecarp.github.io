@@ -1,0 +1,12 @@
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-height: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
