@@ -1,6 +1,15 @@
 #app {
     width: 80%;
-    margin: 0 auto;
+    float: right;
+}
+
+.navigation {
+    position: fixed;
+    top: 55%;
+    left: 3em;
+    width: 3em;
+    height: 10em;
+    border: 1px solid #444;
 }
 
 img {
