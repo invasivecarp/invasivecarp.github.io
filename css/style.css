@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto:700&display=swap');
 body {
     user-select: none;
 }
@@ -10,10 +11,22 @@ body {
 }
 
 .abs {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 5;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero .title {
+    color: white;
+}
+
+.content {
+    font-family: 'PT Sans', sans-serif;
 }
 
 .hero {
@@ -22,10 +35,11 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    height: 100%;
 }
 
-.white {
-    color: whitesmoke;
+.lighter {
+    color: #bbb;
 }
 
 .continue {
@@ -60,8 +74,8 @@ body {
 
 img {
     display: block;
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 300px;
+    max-width: 300px;
     width: auto;
     height: auto;
     padding: 0.2em;
