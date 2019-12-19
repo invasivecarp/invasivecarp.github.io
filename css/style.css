@@ -8,6 +8,11 @@ body {}
     user-select: none;
 }
 
+.active {
+    border-right: 0.5px solid #444;
+    padding-right: 0.4em;
+}
+
 .abs {
     position: fixed;
     top: 0;
