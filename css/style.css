@@ -162,3 +162,10 @@ img {
     margin: 0.3em;
     width: 50%;
 }
+
+.annotation {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #999;
+    padding-left: 1em;
+}
