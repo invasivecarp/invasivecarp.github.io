@@ -1,6 +1,10 @@
+body {}
+
 #app {
     width: 80%;
     float: right;
+    background-image: url('../img/so-white.png') !important;
+    border-top: 0.5px solid #444;
 }
 
 .navigation {
@@ -18,7 +22,7 @@ img {
     max-width: 400px;
     width: auto;
     height: auto;
-    padding: 1em;
+    padding: 0.2em;
 }
 
 .right {
@@ -50,4 +54,25 @@ img {
     font-size: 11px;
     text-align: center;
     font-style: italic;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.section {
+    border-top: 0.5px solid #444;
+    border-bottom: 0.5px solid #444;
 }
