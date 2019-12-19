@@ -145,11 +145,20 @@ img {
 .hidden {
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 2s, opacity 2s linear;
+    transition: visibility 0s 1s, opacity 1s linear;
 }
 
 .visible {
     visibility: visible;
     opacity: 1;
     transition: opacity 2s linear;
+}
+
+.citation {
+    background-color: #fcfcfc;
+    border-left: 4px solid #d4d4d4;
+    color: #222;
+    padding: 0.5em;
+    margin: 0.3em;
+    width: 50%;
 }
